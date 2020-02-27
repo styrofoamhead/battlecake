@@ -1,0 +1,72 @@
+body {
+  font-family: "Poppins", sans-serif; }
+
+h1 {
+  font-family: "Slackey", sans-serif;
+  font-size: 50pt; }
+
+h2 {
+  font-family: "Slackey", sans-serif;
+  color: firebrick; }
+
+h3 {
+  font-family: "Pacifico", sans-serif; }
+
+header h2 {
+  color: seashell; }
+
+.site-footer {
+  background-color: darkslategray;
+  padding: 20px 0px;
+  color: seashell; }
+  .site-footer h5,
+  .site-footer a:link,
+  .site-footer a:visited,
+  .site-footer a:hover,
+  .site-footer a:active {
+    color: seashell; }
+
+.jumbotron {
+  margin: 0;
+  padding: 30px;
+  background-image: linear-gradient(to right, indianred, darkred);
+  color: white; }
+
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px; }
+
+.navbar {
+  background-color: darkslategray; }
+
+.tab-content {
+  border: 1px solid #ddd;
+  border-top: none;
+  padding: 10px; }
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.carousel {
+  border: solid indianred; }
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: darkred; }
+
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0; }
+
+#loginModal .modal-header {
+  background-color: firebrick;
+  color: white; }
+
+#reserveModal .modal-header {
+  background-color: #17a2b8;
+  color: white; }

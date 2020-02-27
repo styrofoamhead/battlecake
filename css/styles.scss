@@ -1,0 +1,108 @@
+$color-teal: #17a2b8;
+$color-primary: firebrick;
+$color-secondary: indianred;
+$color-pale: seashell;
+$color-mid: darkslategray;
+$color-dark: darkred;
+$color-transparent-black: rgba(0, 0, 0, 0.5);
+$body-font: "Poppins",
+sans-serif;
+$header-font: "Slackey",
+sans-serif;
+$subhead-font: "Pacifico",
+sans-serif;
+body {
+    font-family: $body-font;
+}
+
+h1 {
+    font-family: $header-font;
+    font-size: 50pt;
+}
+
+h2 {
+    font-family: $header-font;
+    color: $color-primary;
+}
+
+h3 {
+    font-family: $subhead-font;
+}
+
+header {
+    h2 {
+        color: $color-pale;
+    }
+}
+
+.site-footer {
+    background-color: $color-mid;
+    padding: 20px 0px;
+    color: $color-pale;
+    h5,
+    a:link,
+    a:visited,
+    a:hover,
+    a:active {
+        color: $color-pale;
+    }
+}
+
+.jumbotron {
+    margin: 0;
+    padding: 30px;
+    background-image: linear-gradient(to right, $color-secondary, $color-dark);
+    color: white;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.navbar {
+    background-color: $color-mid;
+}
+
+.tab-content {
+    border: 1px solid #ddd;
+    border-top: none;
+    padding: 10px;
+}
+
+.carousel-caption {
+    background-color: $color-transparent-black;
+}
+
+.carousel {
+    border: solid $color-secondary;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+    color: $color-dark;
+}
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#loginModal {
+    .modal-header {
+        background-color: $color-primary;
+        color: white;
+    }
+}
+
+#reserveModal {
+    .modal-header {
+        background-color: $color-teal;
+        color: white;
+    }
+}
