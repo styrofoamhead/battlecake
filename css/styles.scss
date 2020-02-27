@@ -102,7 +102,17 @@ a:active {
 
 #reserveModal {
     .modal-header {
-        background-color: $color-teal;
+        background-color: $color-primary;
         color: white;
+    }
+}
+
+#subscribeModal {
+    .modal-header {
+        .modal-title {
+            color: white;
+        }
+        background-color: $color-primary;
+        text-align: center;
     }
 }

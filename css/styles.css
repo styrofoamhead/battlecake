@@ -68,5 +68,11 @@ a:active {
   color: white; }
 
 #reserveModal .modal-header {
-  background-color: #17a2b8;
+  background-color: firebrick;
   color: white; }
+
+#subscribeModal .modal-header {
+  background-color: firebrick;
+  text-align: center; }
+  #subscribeModal .modal-header .modal-title {
+    color: white; }
