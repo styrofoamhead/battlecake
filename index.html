@@ -35,73 +35,7 @@
         </div>
     </header>
 
-    <!-- START RESERVE MODAL -->
-    <div id="reserveModal" class="modal fade bd-modal-lg" tabindex="-1" role="dialog">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header bg-info">
-                    <h3 class="modal-title text-white">Reserve a Campsite</h3>
-                    <button type="button" class="close" data-dismiss="modal"><i class="fa fa-times"></i></button>
-                </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <form id="reserveForm">
-                            <div class="row form-group">
-                                <div class="col-sm-6 col-xs-12">
-                                    <label for="numCampers" class="col-form-label">
-                                        Number of Campers
-                                    </label>
-                                </div>
-                                <div class="col-sm-6 col-xs-12">
-                                    <select name="numCampers" id="numCampers" class="form-control">
-                                        <option value="0">Select...</option>
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
-                                        <option value="4">4</option>
-                                        <option value="5">5</option>
-                                        <option value="6">6</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="row form-group">
-                                <div class="col-sm-6 col-xs-12">
-                                    <label for="date" class="col-form-label">Date</label>
-                                </div>
-                                <div class="col-sm-6 col-xs-12">
-                                    <input type="date" id="date" class="form-control" />
-                                </div>
-                            </div>
-                            <div class="row form-group">
-                                <div class="col-sm-6 col-xs-12">
-                                    <label for="siteTent" class="col-form-label">Campsite Type</label>
-                                </div>
-                                <div class="col-sm-6 col-xs-12">
-                                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                                        <label class="btn btn-success active">
-                                            <input type="radio" name="siteType" id="siteTent" autocomplete="off" checked> Tent
-                                        </label>
-                                        <label class="btn btn-danger">
-                                            <input type="radio" name="siteType" id="siteRV" autocomplete="off"> RV
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row form-group">
-                                <div class="col">
-                                    <input type="button" data-dismiss="modal" value="Cancel" class="btn btn-secondary" />
-                                    <input type="button" value="Search" class="btn btn-danger" />
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-    <!-- END RESERVE MODAL -->
-
+    <!-- nav start -->
     <nav class=" navbar navbar-expand-sm navbar-dark sticky-top">
         <div class="container">
             <a class="navbar-brand" href="#"><img src="img/cake_logo.png" height="30" width="30" /></a>
@@ -116,18 +50,18 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="menu.html">
                             <i class="fa fa-list fa-lg"></i> Menu
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="aboutus.html">
+                        <a class="nav-link" href="about.html">
                             <i class="fa fa-info fa-lg"></i> About
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contactus.html">
-                            <i class="fa fa-address-card fa-lg"></i> Contact
+                        <a class="nav-link" href="contact.html">
+                            <i class="fa fa-address-book fa-lg"></i> Contact
                         </a>
                     </li>
                 </ul>
@@ -139,46 +73,7 @@
             </div>
         </div>
     </nav>
-
-    <!-- START LOGIN MODAL -->
-    <div id="loginModal" class="modal fade" role="dialog" tabindex="-1">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h3 class="modal-title">Login</h3>
-                    <button type="button" class="close" data-dismiss="modal"><i class="fa fa-times"></i></button>
-                </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <form>
-                            <div class="form-row">
-                                <div class="form-group col-12">
-                                    <label class="sr-only" for="loginEmail">Email address</label>
-                                    <input type="email" class="form-control form-control-sm" id="loginEmail" placeholder="Enter email">
-                                </div>
-                                <div class="form-group col-12">
-                                    <label class="sr-only" for="loginPassword">Password</label>
-                                    <input type="password" class="form-control form-control-sm" id="loginPassword" placeholder="Password">
-                                </div>
-                                <div class="col">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox">
-                                        <label class="form-check-label"> Remember me</label>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form-row">
-                                <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
-                                <button type="submit" class="btn btn-danger btn-sm ml-1">Sign in</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-    <!-- END LOGIN MODAL -->
+    <!-- nav end -->
 
     <div class="container">
 
@@ -246,7 +141,7 @@
         </div>
     </div>
 
-    <!--  subscribe form -->
+    <!--  sub form start -->
     <div class="row-content align-items-center">
         <div class="col-sm-6 mx-auto">
             <div class="card">
@@ -270,7 +165,40 @@
             </div>
         </div>
     </div>
-    <!-- form end -->
+    <!-- sub form end -->
+
+    <!--begin footer  -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-2 offset-1">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li></li><a href="#">Home</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-sm-5 text-center">
+                    <h5>Social</h5>
+                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i
+						></a>
+                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i
+						></a>
+                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i
+						></a>
+                    <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i
+						></a>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <a role="button" class="btn btn-link" href="tel:+15555555555"><i class="fa fa-phone"></i> 1-555-555-5555</a><br />
+                    <a role="button" class="btn btn-link" href="mailto:info@battle.cake"><i class="fa fa-envelope-o"></i> info@battle.cake</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--end footer  -->
 
     <!-- START DISCOUNT MODAL -->
     <div id="subscribeModal" class="modal fade" role="dialog" tabindex="-1">
@@ -307,51 +235,55 @@
             </div>
         </div>
     </div>
-    </div>
     <!-- END DISCOUNT MODAL -->
 
-    <footer class="site-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-4 col-sm-2 offset-1">
-                    <h5>Links</h5>
-                    <ul class="list-unstyled">
-                        <li></li><a href="#">Home</a></li>
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
+    <!-- START LOGIN MODAL -->
+    <div id="loginModal" class="modal fade" role="dialog" tabindex="-1">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Login</h3>
+                    <button type="button" class="close" data-dismiss="modal"><i class="fa fa-times"></i></button>
                 </div>
-                <div class="col-6 col-sm-5 text-center">
-                    <h5>Social</h5>
-                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i
-						></a>
-                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i
-						></a>
-                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i
-						></a>
-                    <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i
-						></a>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-12">
+                                    <label class="sr-only" for="loginEmail">Email address</label>
+                                    <input type="email" class="form-control form-control-sm" id="loginEmail" placeholder="Enter email">
+                                </div>
+                                <div class="form-group col-12">
+                                    <label class="sr-only" for="loginPassword">Password</label>
+                                    <input type="password" class="form-control form-control-sm" id="loginPassword" placeholder="Password">
+                                </div>
+                                <div class="col">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox">
+                                        <label class="form-check-label"> Remember me</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                                <button type="submit" class="btn btn-danger btn-sm ml-1">Sign in</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
-                <div class="col-sm-4 text-center">
-                    <a role="button" class="btn btn-link" href="tel:+15555555555"><i class="fa fa-phone"></i> 1-555-555-5555</a
-						><br />
-						<a
-							role="button"
-							class="btn btn-link"
-							href="mailto:info@battle.cake"
-							><i class="fa fa-envelope-o"></i> info@battle.cake</a
-						>
-					</div>
-				</div>
-			</div>
-		</footer>
-        <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
-        <!-- build:js js/main.js -->
-		<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-		<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-        <script src="js/scripts.js"></script>
-        <!-- endbuild -->
-	</body>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- END LOGIN MODAL -->
+
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <!-- build:js js/main.js -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <!-- endbuild -->
+</body>
+
 </html>
