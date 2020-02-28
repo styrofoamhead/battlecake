@@ -19,7 +19,8 @@ header h2 {
   background-color: darkslategray;
   padding: 20px 0px;
   color: seashell; }
-  .site-footer h5,
+  .site-footer h5 {
+    font-family: "Pacifico", sans-serif; }
   .site-footer a:link,
   .site-footer a:visited,
   .site-footer a:hover,
@@ -28,7 +29,7 @@ header h2 {
 
 .jumbotron {
   margin: 0;
-  padding: 30px;
+  padding: 20px;
   background-image: linear-gradient(to right, indianred, darkred);
   color: white; }
 
@@ -67,12 +68,11 @@ a:active {
   background-color: firebrick;
   color: white; }
 
-#reserveModal .modal-header {
-  background-color: firebrick;
-  color: white; }
-
 #subscribeModal .modal-header {
   background-color: firebrick;
   text-align: center; }
   #subscribeModal .modal-header .modal-title {
     color: white; }
+
+.card-header {
+  background-color: indianred; }

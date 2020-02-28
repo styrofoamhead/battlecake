@@ -39,7 +39,9 @@ header {
     background-color: $color-mid;
     padding: 20px 0px;
     color: $color-pale;
-    h5,
+    h5 {
+        font-family: $subhead-font;
+    }
     a:link,
     a:visited,
     a:hover,
@@ -50,7 +52,7 @@ header {
 
 .jumbotron {
     margin: 0;
-    padding: 30px;
+    padding: 20px;
     background-image: linear-gradient(to right, $color-secondary, $color-dark);
     color: white;
 }
@@ -100,13 +102,6 @@ a:active {
     }
 }
 
-#reserveModal {
-    .modal-header {
-        background-color: $color-primary;
-        color: white;
-    }
-}
-
 #subscribeModal {
     .modal-header {
         .modal-title {
@@ -115,4 +110,8 @@ a:active {
         background-color: $color-primary;
         text-align: center;
     }
+}
+
+.card-header {
+    background-color: $color-secondary;
 }
