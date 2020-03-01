@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <!-- Required meta tags always come first -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- build:css css/main.css -->
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet"
+            href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+        <!-- Additional CSS must be placed after Bootstrap CSS -->
+        <link rel="stylesheet"
+            href="node_modules/font-awesome/css/font-awesome.min.css" />
+        <link rel="stylesheet"
+            href="node_modules/bootstrap-social/bootstrap-social.css" />
+        <link rel="stylesheet" href="/css/styles.css" />
+        <!-- endbuild -->
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Slackey|Pacifico|Poppins" />
+
+
+        <title>BattleCake</title>
+    </head>
+
+    <body>
+        <header class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4 col-sm-3 col-md-2 align-self-center">
+                        <img src="img/cake_logo.png" class="img-fluid" />
+                    </div>
+                    <div class="col">
+                        <h1>BattleCake</h1>
+                        <h3>Do Battle. Eat Cake.</h3>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- nav start -->
+        <nav class=" navbar navbar-expand-sm navbar-dark sticky-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img
+                        src="img/cake_logo.png" height="30" width="30" /></a>
+                <button class="navbar-toggler" type="button"
+                    data-toggle="collapse" data-target="#nucampNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="nucampNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">
+                                <i class="fa fa-birthday-cake fa-lg"></i> Home
+                            </a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">
+                                <i class="fa fa-list fa-lg"></i> Menu
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">
+                                <i class="fa fa-info fa-lg"></i> About
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">
+                                <i class="fa fa-address-book fa-lg"></i> Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- nav end -->
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a
+                                href="index.html">Home</a></li>
+                        <li class="breadcrumb-item active">Menu</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+        <!-- START TABS -->
+        <div class="container">
+            <div class="row row-content">
+                <div class="col">
+                    <h3>Choose Your Battle</h3>
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#cakes" role="tab"
+                                data-toggle="tab">Cakes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cupcakes" role="tab"
+                                data-toggle="tab">Cupcakes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#specialty" role="tab"
+                                data-toggle="tab">Specialty Cakes</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+
+                        <!-- start cake tab -->
+                        <div class="tab-pane active" id="cakes">
+
+                            <div class="row p-4 align-items-center">
+                                <div class="col-xs-12 align-self-center">
+                                    <h2>Ready Your Cake!</h2>
+                                    <p class="d-sm-block">
+                                        Cupcake ipsum dolor sit amet marzipan
+                                        tootsie roll. Dessert brownie cake
+                                        chocolate cupcake pastry fruitcake
+                                        powder. Cake apple pie danish cake
+                                        chocolate
+                                        bar chocolate cookie sweet soufflé.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="btn-group btn-group-toggle"
+                                data-toggle="buttons" id="cake">
+                                <label
+                                    class="btn d-flex align-items-center active btn-light">
+                                    <input type="radio" id="cake1" name="cake"
+                                        autocomplete="off" checked
+                                        value="Cake 1">
+                                    <img class="d-flex align-self-center img-fluid"
+                                        src="img/cake_thumb.jpg" alt="cake" />
+                                </label>
+                                <label
+                                    class="btn d-flex align-items-center btn-light">
+                                    <input type="radio" id="cake2" name="cake"
+                                        autocomplete="off" value="Cake 2">
+                                    <img class="d-flex align-self-center img-fluid"
+                                        src="img/cake_thumb.jpg" alt="cake" />
+                                </label>
+                                <label
+                                    class="btn d-flex align-items-center btn-light">
+                                    <input type="radio" id="cake3" name="cake"
+                                        autocomplete="off" value="Cake 3">
+                                    <img class="d-flex align-self-center img-fluid"
+                                        src="img/cake_thumb.jpg" alt="cake" />
+                                </label>
+                                <label
+                                    class="btn d-flex align-items-center btn-light">
+                                    <input type="radio" id="cake4" name="cake"
+                                        autocomplete="off" value="Cake 4">
+                                    <img class="d-flex align-self-center img-fluid"
+                                        src="img/cake_thumb.jpg" alt="cake" />
+                                </label>
+                            </div>
+                        </div>
+                        <!-- end cake tab -->
+
+                        <!-- start cupcake tab -->
+                        <div class="tab-pane" id="cupcakes">
+
+                            <div class="row p-4 align-items-center">
+                                <div class="col-xs-12 align-self-center">
+                                    <h2>Ready Your Cupcake!</h2>
+                                    <p class="d-sm-block">
+                                        Cupcake ipsum dolor. Sit amet candy
+                                        canes cupcake toffee pastry muffin.
+                                        Chocolate bar pudding wafer icing gummi
+                                        bears fruitcake bear claw dragée
+                                        gingerbread. Caramels toffee chupa chups
+                                        candy canes bear claw jelly-o dragée.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="btn-group btn-group-toggle"
+                                data-toggle="buttons" id="cupcake">
+                                <label
+                                    class="btn d-flex align-items-center active btn-light">
+                                    <input type="radio" id="cupcake1"
+                                        name="cupcake" autocomplete="off"
+                                        checked value="Cupcake 1">
+                                    <img class="d-flex align-self-center img-fluid"
+                                        src="img/cup_thumb.jpg" alt="cupcake" />
+                                </label>
+                                <label
+                                    class="btn d-flex align-items-center btn-light">
+                                    <input type="radio" id="cupcake"
+                                        name="cupcake" autocomplete="off"
+                                        value="Cupcake 2">
+                                    <img class="d-flex align-self-center img-fluid"
+                                        src="img/cup_thumb.jpg" alt="cupcake" />
+                                </label>
+                                <label
+                                    class="btn d-flex align-items-center btn-light">
+                                    <input type="radio" id="cupcake"
+                                        name="cupcake" autocomplete="off"
+                                        value="Cupcake 3">
+                                    <img class="d-flex align-self-center img-fluid"
+                                        src="img/cup_thumb.jpg" alt="cupcake" />
+                                </label>
+                                <label
+                                    class="btn d-flex align-items-center btn-light">
+                                    <input type="radio" id="cake4"
+                                        name="cupcake" autocomplete="off"
+                                        value="Cupcake 4">
+                                    <img class="d-flex align-self-center img-fluid"
+                                        src="img/cup_thumb.jpg" alt="cupcake" />
+                                </label>
+                            </div>
+                        </div>
+                        <!-- end cupcake tab -->
+
+                        <!-- start specialty tab -->
+                        <div class="tab-pane" id="specialty">
+
+                            <div class="row p-4 align-items-center">
+                                <div class="col-xs-12 align-self-center">
+                                    <h2>Ready Your Specialty Cake!</h2>
+                                    <p class="d-sm-block">
+                                        Cupcake ipsum dolor. Sit amet toffee
+                                        gummies macaroon halvah jelly ice cream
+                                        liquorice. Liquorice danish halvah
+                                        chocolate cake. Bonbon donut fruitcake
+                                        tiramisu gummi bears cake sweet roll
+                                        wafer.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="btn-group btn-group-toggle"
+                                data-toggle="buttons" id="specialty">
+                                <label
+                                    class="btn d-flex align-items-center active btn-light">
+                                    <input type="radio" id="specialty1"
+                                        name="specialty" autocomplete="off"
+                                        checked value="Specialty Cake 1">
+                                    <img class="d-flex align-self-center img-fluid"
+                                        src="img/spec_thumb.jpg"
+                                        alt="specialty" />
+                                </label>
+                                <label
+                                    class="btn d-flex align-items-center btn-light">
+                                    <input type="radio" id="specialty2"
+                                        name="specialty" autocomplete="off"
+                                        value="Specialty Cake 2">
+                                    <img class="d-flex align-self-center img-fluid"
+                                        src="img/spec_thumb.jpg"
+                                        alt="specialty" />
+                                </label>
+                                <label
+                                    class="btn d-flex align-items-center btn-light">
+                                    <input type="radio" id="specialty3"
+                                        name="specialty" autocomplete="off"
+                                        value="Specialty Cake 3">
+                                    <img class="d-flex align-self-center img-fluid"
+                                        src="img/spec_thumb.jpg"
+                                        alt="specialty" />
+                                </label>
+                                <label
+                                    class="btn d-flex align-items-center btn-light">
+                                    <input type="radio" id="specialty4"
+                                        name="specialty" autocomplete="off"
+                                        value="Specialty Cake 4">
+                                    <img class="d-flex align-self-center img-fluid"
+                                        src="img/spec_thumb.jpg"
+                                        alt="specialty" />
+                                </label>
+                            </div>
+                        </div>
+                        <!-- end specialty tab -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END TABS -->
+
+        <!-- begin reinforcements -->
+        <div class="container">
+            <div class="row-content align-items-center collapse" id="cakeOpts">
+                <div class="col-xs-8">
+                    <h3>Battle Plan</h3>
+                    <div class="form-group row">
+                        <label for="cakeFlavor" class="col-md-2 col-form-label">
+                            Cake Flavor
+                        </label>
+
+                        <div class="btn-group btn-group-toggle col"
+                            data-toggle="buttons">
+                            <label
+                                class="btn btn-outline-secondary d-flex align-items-center active">
+                                <input type="radio" name="cakeFlavor"
+                                    id="defaultCake" autocomplete="off" checked
+                                    value="defaultCake">Default
+                            </label>
+                            <label
+                                class="btn btn-outline-secondary d-flex align-items-center">
+                                <input type="radio" name="cakeFlavor"
+                                    id="chocCake" autocomplete="off" checked
+                                    value="chocCake">Chocolate
+                            </label>
+                            <label
+                                class="btn btn-outline-secondary d-flex align-items-center">
+                                <input type="radio" name="cakeFlavor"
+                                    id="vanCake" autocomplete="off"
+                                    value="vanCake">Vanilla
+                            </label>
+                            <label
+                                class="btn btn-outline-secondary d-flex align-items-center">
+                                <input type="radio" name="cakeFlavor"
+                                    id="strCake" autocomplete="off"
+                                    value="strCake">Strawberry
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="icingFlavor"
+                            class="col-md-2 col-form-label">
+                            Icing Flavor
+                        </label>
+                        <div class="btn-group btn-group-toggle col"
+                            data-toggle="buttons">
+                            <label
+                                class="btn btn-outline-secondary d-flex align-items-center active">
+                                <input type="radio" name="icingFlavor"
+                                    id="defaultIcing" autocomplete="off" checked
+                                    value="defaultIcing">Default
+                            </label>
+                            <label
+                                class="btn btn-outline-secondary d-flex align-items-center">
+                                <input type="radio" name="icingFlavor"
+                                    id="chocIcing" autocomplete="off" checked
+                                    value="chocIcing">Chocolate
+                            </label>
+                            <label
+                                class="btn btn-outline-secondary d-flex align-items-center">
+                                <input type="radio" name="icingFlavor"
+                                    id="vanIcing" autocomplete="off"
+                                    value="vanIcing">Vanilla
+                            </label>
+                            <label
+                                class="btn btn-outline-secondary d-flex align-items-center">
+                                <input type="radio" name="icingFlavor"
+                                    id="strIcing" autocomplete="off"
+                                    value="strIcing">Strawberry
+                            </label>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+
+        <!-- begin toggle -->
+        <div class="container">
+            <div class="row p-4">
+                <div class="col-xs-2">
+                    <button type="submit" class="btn btn-outline-danger"
+                        id="cakeOptBtn">Reinforcements?
+                    </button>
+                    <button type="submit" class="btn btn-danger"
+                        id="subCake">Battle!
+                    </button>
+                </div>
+                <div id="battleOrder"></div>
+            </div>
+        </div>
+        <!-- end toggle -->
+
+        <!-- begin order form -->
+        <div class="container">
+            <div class="row-content">
+                <div class="col-md-12">
+                    <form>
+                        <div class="form-group row">
+                            <label for="firstName"
+                                class="col-md-2 col-form-label">
+                                First Name
+                            </label>
+                            <div class="col-md-10">
+                                <input type="text" class="form-control"
+                                    id="firstName" name="firstName"
+                                    placeholder="First Name" />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="lastName"
+                                class="col-md-2 col-form-label">
+                                Last Name
+                            </label>
+                            <div class="col-md-10">
+                                <input type="text" class="form-control"
+                                    id="lastName" name="lastName"
+                                    placeholder="Last Name" />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="areaCode"
+                                class="col-md-2 col-form-label">
+                                Contact Tel.
+                            </label>
+                            <div class="col-5 col-md-3">
+                                <input type="tel" class="form-control"
+                                    id="areaCode" name="areaCode"
+                                    placeholder="Area code" />
+                            </div>
+                            <div class="col-7">
+                                <input type="tel" class="form-control"
+                                    name="telNum" placeholder="Tel. number" />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="email" class="col-md-2 col-form-label">
+                                Email </label>
+                            <div class="col-md-10">
+                                <input type="email" class="form-control"
+                                    id="email" name="email"
+                                    placeholder="Email" />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col offset-md-2">
+                                May we contact you?
+                                <div class="form-check form-check-inline">
+                                    <input type="radio" class="form-check-input"
+                                        id="contactYes" name="contactRadios"
+                                        value="yes" />
+                                    <label for="contactYes"
+                                        class="form-check-label">Yes</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input type="radio" class="form-check-input"
+                                        id="contactNo" name="contactRadios"
+                                        value="no" />
+                                    <label for="contactNo"
+                                        class="form-check-label">No</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="instructions"
+                                class="col-md-2 col-form-label">
+                                Special Instructions
+                            </label>
+                            <div class="col-md-10">
+                                <textarea class="form-control" id="instructions"
+                                    name="instructions" rows="3"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="offset-md-2 col-md-10">
+                                <button type="submit" class="btn btn-danger">
+                                    Charge!
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- end order form -->
+
+        <!--  sub form start -->
+        <div class="row-content align-items-center">
+            <div class="col-sm-6 mx-auto">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="text-white">Subscribe to Our
+                            Newsletter</h3>
+                    </div>
+                    <div class="card-body">
+                        <form id="subscribeForm">
+                            <div class="form-row p-1">
+                                <div class="form-group col-12">
+                                    <label class="sr-only" for="subEmail">Email
+                                        address</label>
+                                    <input type="email"
+                                        class="form-control form-control-sm"
+                                        id="subEmail" placeholder="Enter email">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <button type="button"
+                                    class="btn btn-secondary btn-sm ml-auto"
+                                    data-dismiss="modal">Cancel</button>
+                                <button type="submit"
+                                    class="btn btn-danger btn-sm ml-1">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- sub form end -->
+
+        <!--begin footer  -->
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4 col-sm-2 offset-1">
+                        <h5>Links</h5>
+                        <ul class="list-unstyled">
+                            <li></li><a href="#">Home</a></li>
+                            <li><a href="#">Menu</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-sm-5 text-center">
+                        <h5>Social</h5>
+                        <a class="btn btn-social-icon btn-instagram"
+                            href="http://instagram.com/"><i
+                                class="fa fa-instagram"></i></a>
+                        <a class="btn btn-social-icon btn-facebook"
+                            href="http://facebook.com/"><i
+                                class="fa fa-facebook"></i></a>
+                        <a class="btn btn-social-icon btn-twitter"
+                            href="http://twitter.com/"><i
+                                class="fa fa-twitter"></i></a>
+                        <a class="btn btn-social-icon btn-google"
+                            href="http://youtube.com/"><i
+                                class="fa fa-youtube"></i></a>
+                    </div>
+                    <div class="col-sm-4 text-center">
+                        <a role="button" class="btn btn-link"
+                            href="tel:+15555555555"><i class="fa fa-phone"></i>
+                            1-555-555-5555</a><br />
+                        <a role="button" class="btn btn-link"
+                            href="mailto:info@battle.cake"><i
+                                class="fa fa-envelope-o"></i>
+                            info@battle.cake</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--end footer  -->
+
+        <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+        <!-- build:js js/main.js -->
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="js/scripts.js"></script>
+        <!-- endbuild -->
+    </body>
+
+</html>

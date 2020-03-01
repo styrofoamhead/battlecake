@@ -1,39 +1,35 @@
 $(function() {
-    $(".carousel").carousel({ interval: 2000 });
-    $("#carouselButton").click(function() {
-        if (
-            $("#carouselButton")
-            .children("i")
-            .hasClass("fa-pause")
-        ) {
-            $(".carousel").carousel("pause");
-            $("#carouselButton")
-                .children("i")
-                .removeClass("fa-pause");
-            $("#carouselButton")
-                .children("i")
-                .addClass("fa-play");
-        } else {
-            $(".carousel").carousel("cycle");
-            $("#carouselButton")
-                .children("i")
-                .removeClass("fa-play");
-            $("#carouselButton")
-                .children("i")
-                .addClass("fa-pause");
-        }
-    });
-});
-
-$(function() {
-    $("#reserveButton").click(function() {
-        $("#reserveModal").modal("show");
-    });
-    $("#loginButton").click(function() {
-        $("#loginModal").modal("show");
-    });
+	$("#reserveButton").click(function() {
+		$("#reserveModal").modal("show");
+	});
+	$("#loginButton").click(function() {
+		$("#loginModal").modal("show");
+	});
 });
 
 setTimeout(function() {
-    $("#subscribeModal").modal("show");
+	$("#subscribeModal").modal("show");
 }, 2000);
+
+// battle plan toggle
+$(function() {
+	$("#cakeOptBtn").click(function() {
+		$("#cakeOpts").collapse("show");
+	});
+	$("#cakeOptBtn").click(function() {
+		$("#cakeOpts").collapse("hide");
+	});
+});
+
+$("a.nav-link").click(function() {
+	$(".tab-pane").hide();
+	$($(this).attr("href")).show();
+});
+
+$(document).ready(function() {
+	const tab = window.location.hash;
+	if (tab != "") {
+		$('.nav-tabs a[href="' + tab + '"]').tab("show");
+		window.scrollTo(0, 0);
+	}
+});

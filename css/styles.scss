@@ -1,117 +1,139 @@
-$color-teal: #17a2b8;
 $color-primary: firebrick;
 $color-secondary: indianred;
 $color-pale: seashell;
 $color-mid: darkslategray;
 $color-dark: darkred;
 $color-transparent-black: rgba(0, 0, 0, 0.5);
-$body-font: "Poppins",
-sans-serif;
-$header-font: "Slackey",
-sans-serif;
-$subhead-font: "Pacifico",
-sans-serif;
+$body-font: "Poppins", sans-serif;
+$header-font: "Slackey", sans-serif;
+$subhead-font: "Pacifico", sans-serif;
+
 body {
-    font-family: $body-font;
+	font-family: $body-font;
 }
 
 h1 {
-    font-family: $header-font;
-    font-size: 50pt;
+	font-family: $header-font;
+	font-size: 50pt;
 }
 
 h2 {
-    font-family: $header-font;
-    color: $color-primary;
+	font-family: $header-font;
+	color: $color-primary;
 }
 
 h3 {
-    font-family: $subhead-font;
+	font-family: $subhead-font;
 }
 
 header {
-    h2 {
-        color: $color-pale;
-    }
+	h2 {
+		color: $color-pale;
+	}
 }
 
 .site-footer {
-    background-color: $color-mid;
-    padding: 20px 0px;
-    color: $color-pale;
-    h5 {
-        font-family: $subhead-font;
-    }
-    a:link,
-    a:visited,
-    a:hover,
-    a:active {
-        color: $color-pale;
-    }
+	background-color: $color-mid;
+	padding: 20px 0px;
+	color: $color-pale;
+	h5 {
+		font-family: $subhead-font;
+	}
+	a:link,
+	a:visited,
+	a:hover,
+	a:active {
+		color: $color-pale;
+	}
 }
 
 .jumbotron {
-    margin: 0;
-    padding: 20px;
-    background-image: linear-gradient(to right, $color-secondary, $color-dark);
-    color: white;
+	margin: 0;
+	padding: 20px;
+	background-image: linear-gradient(to right, $color-secondary, $color-dark);
+	color: white;
 }
 
 .row-content {
-    padding: 50px 0;
-    border-bottom: 1px ridge;
-    min-height: 200px;
+	padding: 50px 0;
+	border-bottom: 1px ridge;
+	min-height: 200px;
 }
 
 .navbar {
-    background-color: $color-mid;
+	background-color: $color-mid;
 }
 
 .tab-content {
-    border: 1px solid #ddd;
-    border-top: none;
-    padding: 10px;
-}
-
-.carousel-caption {
-    background-color: $color-transparent-black;
-}
-
-.carousel {
-    border: solid $color-secondary;
+	border: 1px solid #ddd;
+	border-top: none;
+	padding: 10px;
 }
 
 a:link,
 a:visited,
 a:hover,
 a:active {
-    text-decoration: none;
-    color: $color-dark;
-}
-
-#carouselButton {
-    position: absolute;
-    right: 0;
-    bottom: 0;
+	text-decoration: none;
+	color: $color-dark;
 }
 
 #loginModal {
-    .modal-header {
-        background-color: $color-primary;
-        color: white;
-    }
+	.modal-header {
+		background-color: $color-primary;
+		color: white;
+	}
 }
 
 #subscribeModal {
-    .modal-header {
-        .modal-title {
-            color: white;
-        }
-        background-color: $color-primary;
-        text-align: center;
-    }
+	.modal-header {
+		.modal-title {
+			color: white;
+		}
+		background-color: $color-primary;
+		text-align: center;
+	}
 }
 
 .card-header {
-    background-color: $color-secondary;
+	background-color: $color-secondary;
+}
+
+.carousel-indicators li {
+	width: 10px;
+	height: 10px;
+	border-radius: 100%;
+}
+
+@media (min-width: 800px) {
+	.aboutBlurb {
+		column-count: 2;
+		column-gap: 40px;
+		column-rule-style: solid;
+		column-rule-width: 1px;
+		column-rule-color: $color-mid;
+	}
+}
+
+@media (min-width: 1200px) {
+	.aboutBlurb {
+		column-count: 3;
+		column-gap: 30px;
+		column-rule-style: solid;
+		column-rule-width: 1px;
+		column-rule-color: $color-mid;
+	}
+}
+
+.maxHeight {
+	max-height: 600px;
+	margin: auto;
+	display: block;
+}
+
+.imgWrap {
+	float: none;
+	padding: 10px 10px 10px 10px;
+	margin: 0px 0px 15px 0px;
+	display: block;
 }

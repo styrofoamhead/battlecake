@@ -1,289 +1,376 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <!-- Required meta tags always come first -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <head>
+        <!-- Required meta tags always come first -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- build:css css/main.css -->
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
-    <!-- Additional CSS must be placed after Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
-    <link rel="stylesheet" href="/css/styles.css" />
-    <!-- endbuild -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Slackey|Pacifico|Poppins" />
+        <!-- build:css css/main.css -->
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet"
+            href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+        <!-- Additional CSS must be placed after Bootstrap CSS -->
+        <link rel="stylesheet"
+            href="node_modules/font-awesome/css/font-awesome.min.css" />
+        <link rel="stylesheet"
+            href="node_modules/bootstrap-social/bootstrap-social.css" />
+        <link rel="stylesheet" href="/css/styles.css" />
+        <!-- endbuild -->
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Slackey|Pacifico|Poppins" />
 
 
-    <title>BattleCake</title>
-</head>
+        <title>BattleCake</title>
+    </head>
 
-<body>
-    <header class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <div class="row">
-                <div class="col-4 col-sm-3 col-md-2 align-self-center">
-                    <img src="img/cake_logo.png" class="img-fluid" />
-                </div>
-                <div class="col">
-                    <h1>BattleCake</h1>
-                    <h3>Do Battle. Eat Cake.</h3>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <!-- nav start -->
-    <nav class=" navbar navbar-expand-sm navbar-dark sticky-top">
-        <div class="container">
-            <a class="navbar-brand" href="#"><img src="img/cake_logo.png" height="30" width="30" /></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-            <div class="collapse navbar-collapse" id="nucampNavbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">
-                            <i class="fa fa-birthday-cake fa-lg"></i> Home
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="menu.html">
-                            <i class="fa fa-list fa-lg"></i> Menu
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">
-                            <i class="fa fa-info fa-lg"></i> About
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">
-                            <i class="fa fa-address-book fa-lg"></i> Contact
-                        </a>
-                    </li>
-                </ul>
-                <span class="navbar-text ml-auto">
-					<a class="nav-text" href="#" role="button" id="loginButton">
-						<i class="fa fa-sign-in"></i> Login
-					</a>
-				</span>
-            </div>
-        </div>
-    </nav>
-    <!-- nav end -->
-
-    <div class="container">
-
-        <div class="row row-content align-items-center">
-            <div class="col-xs-12 pb-3">
-                <div class="media">
-                    <img class="d-flex align-self-center img-fluid" src="img/header.jpg" alt="header" />
+    <body>
+        <header class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4 col-sm-3 col-md-2 align-self-center">
+                        <img src="img/cake_logo.png" class="img-fluid" />
+                    </div>
+                    <div class="col">
+                        <h1>BattleCake</h1>
+                        <h3>Do Battle. Eat Cake.</h3>
+                    </div>
                 </div>
             </div>
-            <div class="col-xs-10 p-3">
-                <h3>Do Battle. Eat Cake.</h3>
-                <p class="d-block">
-                    Candy canes powder cupcake cake sesame snaps I love I love apple pie pudding. Chupa chups ice cream jujubes. Brownie cookie jelly beans toffee topping. I love muffin cookie icing chocolate oat cake. Donut danish gingerbread I love. Sweet marshmallow I
-                    love. Marzipan powder sugar plum caramels dessert cotton candy pastry muffin. Soufflé gummies cookie candy.
-                    <br><br> Liquorice muffin topping tart sweet roll wafer cookie cupcake. Marshmallow jelly-o dragée donut pastry lemon drops cake I love. Sweet roll oat cake tootsie roll macaroon cookie lemon drops jelly beans chocolate cake. Chocolate
-                    bar soufflé croissant sesame snaps tootsie roll danish cake. Caramels sugar plum soufflé dragée. Chocolate pie ice cream candy dessert cookie dragée tart. Gingerbread bonbon pie brownie dessert chocolate candy I love. Candy canes marzipan
-                    I love jujubes lemon drops.
-                </p>
-            </div>
-        </div>
+        </header>
 
-        <div class="row row-content align-items-center">
-            <div class="col mx-auto pb-3">
-                <div class="media">
-                    <img class="d-flex img-thumbnail align-self-center" src="img/cake_thumb.jpg" alt="cakes" />
-                </div>
-            </div>
-            <div class="col-md-9 col-xs-12 align-self-center">
-                <h3>Cakes</h3>
-                <p class="d-sm-block">
-                    Cupcake ipsum dolor sit amet sesame snaps. Jujubes chocolate jelly beans muffin cheesecake soufflé. Dessert croissant liquorice gummi bears. Bonbon jujubes wafer icing fruitcake carrot cake tart gummies lemon drops.
-                    <br><br> Ice cream macaroon tiramisu. Chupa chups chocolate icing dragée jelly jelly-o sesame snaps soufflé. Apple pie icing danish tart. Gummi bears brownie toffee topping.
-                </p>
-            </div>
-        </div>
-
-        <div class="row row-content align-items-center">
-            <div class="col mx-auto order-sm-12 pb-3">
-                <div class="media">
-                    <img class="d-flex img-thumbnail align-self-center" src="img/cup_thumb.jpg" alt="cupcakes" />
-                </div>
-            </div>
-            <div class="col-md-9 col-xs-12 align-self-center order-sm-1">
-                <h3>Cupcakes</h3>
-                <p class="d-sm-block">
-                    Toffee sesame snaps macaroon lollipop pastry biscuit. Powder cupcake apple pie chocolate cake fruitcake. Gummies jujubes chocolate danish. Sugar plum sesame snaps candy donut I love tiramisu I love dessert I love.
-                    <br><br> Ice cream cookie oat cake biscuit gummi bears liquorice cheesecake. I love pie bonbon gingerbread sweet I love sesame snaps. I love donut sweet jujubes tart.
-                </p>
-            </div>
-        </div>
-
-        <div class="row row-content align-items-center">
-            <div class="col mx-auto pb-3">
-                <div class="media">
-                    <img class="d-flex img-thumbnail align-self-center" src="img/spec_thumb.jpg" alt="specialty cakes" />
-                </div>
-            </div>
-            <div class="col-md-9 col-xs-12 align-self-center">
-                <h3>Specialty Cakes</h3>
-                <p class="d-sm-block">
-                    Brownie carrot cake I love chocolate cake ice cream. Chocolate bar halvah toffee marzipan chocolate. Dessert gummi bears cookie bear claw I love lollipop.
-                    <br><br> Gummi bears marshmallow oat cake caramels. Chupa chups halvah croissant. Danish sweet roll cake bonbon cake dragée sugar plum.
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <!--  sub form start -->
-    <div class="row-content align-items-center">
-        <div class="col-sm-6 mx-auto">
-            <div class="card">
-                <div class="card-header">
-                    <h3 class="text-white">Subscribe to Our Newsletter</h3>
-                </div>
-                <div class="card-body">
-                    <form id="subscribeForm">
-                        <div class="form-row p-1">
-                            <div class="form-group col-12">
-                                <label class="sr-only" for="subEmail">Email address</label>
-                                <input type="email" class="form-control form-control-sm" id="subEmail" placeholder="Enter email">
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
-                            <button type="submit" class="btn btn-danger btn-sm ml-1">Subscribe</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- sub form end -->
-
-    <!--begin footer  -->
-    <footer class="site-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-4 col-sm-2 offset-1">
-                    <h5>Links</h5>
-                    <ul class="list-unstyled">
-                        <li></li><a href="#">Home</a></li>
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
+        <!-- nav start -->
+        <nav class=" navbar navbar-expand-sm navbar-dark sticky-top">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="img/cake_logo.png"
+                        height="30" width="30" /></a>
+                <button class="navbar-toggler" type="button"
+                    data-toggle="collapse" data-target="#nucampNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="nucampNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">
+                                <i class="fa fa-birthday-cake fa-lg"></i> Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="menu.html">
+                                <i class="fa fa-list fa-lg"></i> Menu
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">
+                                <i class="fa fa-info fa-lg"></i> About
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">
+                                <i class="fa fa-address-book fa-lg"></i> Contact
+                            </a>
+                        </li>
                     </ul>
+                    <span class="navbar-text ml-auto">
+                        <a class="nav-text" href="#" role="button"
+                            id="loginButton">
+                            <i class="fa fa-sign-in"></i> Login
+                        </a>
+                    </span>
                 </div>
-                <div class="col-6 col-sm-5 text-center">
-                    <h5>Social</h5>
-                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i
-						></a>
-                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i
-						></a>
-                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i
-						></a>
-                    <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i
-						></a>
+            </div>
+        </nav>
+        <!-- nav end -->
+
+        <div class="container">
+
+            <div class="row row-content align-items-center">
+                <div class="col pb-2">
+                    <div class="media">
+                        <img class="d-flex align-self-center img-fluid"
+                            src="img/header.jpg" alt="header" />
+                    </div>
                 </div>
-                <div class="col-sm-4 text-center">
-                    <a role="button" class="btn btn-link" href="tel:+15555555555"><i class="fa fa-phone"></i> 1-555-555-5555</a><br />
-                    <a role="button" class="btn btn-link" href="mailto:info@battle.cake"><i class="fa fa-envelope-o"></i> info@battle.cake</a>
+                <div class="col-xs-10 p-3">
+                    <h3>Do Battle. Eat Cake.</h3>
+                    <p class="d-block">
+                        Candy canes powder cupcake cake sesame snaps I love I
+                        love apple pie pudding. Chupa chups ice cream jujubes.
+                        Brownie cookie jelly beans toffee topping. I love muffin
+                        cookie icing chocolate oat cake. Donut danish
+                        gingerbread I love. Sweet marshmallow I
+                        love. Marzipan powder sugar plum caramels dessert cotton
+                        candy pastry muffin. Soufflé gummies cookie candy.
+                        <br><br> Liquorice muffin topping tart sweet roll wafer
+                        cookie cupcake. Marshmallow jelly-o dragée donut pastry
+                        lemon drops cake I love. Sweet roll oat cake tootsie
+                        roll macaroon cookie lemon drops jelly beans chocolate
+                        cake. Chocolate
+                        bar soufflé croissant sesame snaps tootsie roll danish
+                        cake. Caramels sugar plum soufflé dragée. Chocolate pie
+                        ice cream candy dessert cookie dragée tart. Gingerbread
+                        bonbon pie brownie dessert chocolate candy I love. Candy
+                        canes marzipan
+                        I love jujubes lemon drops.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row row-content align-items-center">
+                <div class="col mx-auto pb-2">
+                    <div class="media"><a href="menu.html#cakes">
+                            <img class="d-flex img-thumbnail align-self-center"
+                                src="img/cake_thumb.jpg" alt="cakes" /></a>
+                    </div>
+                </div>
+                <div class="col-md-9 col-xs-12 align-self-center">
+                    <h3>Cakes</h3>
+                    <p class="d-sm-block">
+                        Cupcake ipsum dolor sit amet sesame snaps. Jujubes
+                        chocolate jelly beans muffin cheesecake soufflé. Dessert
+                        croissant liquorice gummi bears. Bonbon jujubes wafer
+                        icing fruitcake carrot cake tart gummies lemon drops.
+                        <br><br> Ice cream macaroon tiramisu. Chupa chups
+                        chocolate icing dragée jelly jelly-o sesame snaps
+                        soufflé. Apple pie icing danish tart. Gummi bears
+                        brownie toffee topping.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row row-content align-items-center">
+                <div class="col mx-auto order-sm-12 pb-2">
+                    <div class="media"><a href="menu.html#cupcakes">
+                            <img class="d-flex img-thumbnail align-self-center"
+                                src="img/cup_thumb.jpg" alt="cupcakes" /></a>
+                    </div>
+                </div>
+                <div class="col-md-9 col-xs-12 align-self-center order-sm-1">
+                    <h3>Cupcakes</h3>
+                    <p class="d-sm-block">
+                        Toffee sesame snaps macaroon lollipop pastry biscuit.
+                        Powder cupcake apple pie chocolate cake fruitcake.
+                        Gummies jujubes chocolate danish. Sugar plum sesame
+                        snaps candy donut I love tiramisu I love dessert I love.
+                        <br><br> Ice cream cookie oat cake biscuit gummi bears
+                        liquorice cheesecake. I love pie bonbon gingerbread
+                        sweet I love sesame snaps. I love donut sweet jujubes
+                        tart.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row row-content align-items-center">
+                <div class="col mx-auto pb-2">
+                    <div class="media"><a href="menu.html#specialty">
+                            <img class="d-flex img-thumbnail align-self-center"
+                                src="img/spec_thumb.jpg"
+                                alt="specialty cakes" /></a>
+                    </div>
+                </div>
+                <div class="col-md-9 col-xs-12 align-self-center">
+                    <h3>Specialty Cakes</h3>
+                    <p class="d-sm-block">
+                        Brownie carrot cake I love chocolate cake ice cream.
+                        Chocolate bar halvah toffee marzipan chocolate. Dessert
+                        gummi bears cookie bear claw I love lollipop.
+                        <br><br> Gummi bears marshmallow oat cake caramels.
+                        Chupa chups halvah croissant. Danish sweet roll cake
+                        bonbon cake dragée sugar plum.
+                    </p>
                 </div>
             </div>
         </div>
-    </footer>
-    <!--end footer  -->
 
-    <!-- START DISCOUNT MODAL -->
-    <div id="subscribeModal" class="modal fade" role="dialog" tabindex="-1">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h3 class="modal-title">Subscribe to Our Newsletter</h3>
-                    <button type="button" class="close" data-dismiss="modal"><i class="fa fa-times"></i></button>
-                </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <form>
-                            <div class="form-row p-3">
-                                <img src="img/cake_logo.png" class="img-fluid p-3" />
-                                <h2>Use the promo code and save 15%!</h2>
-
-                                <p class="d-block">
-                                    Candy canes powder cupcake cake sesame snaps I love I love apple pie pudding. Chupa chups ice cream jujubes. Brownie cookie jelly beans toffee topping.
-                                </p>
-                            </div>
+        <!--  sub form start -->
+        <div class="row-content align-items-center">
+            <div class="col-sm-6 mx-auto">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="text-white">Subscribe to Our Newsletter</h3>
+                    </div>
+                    <div class="card-body">
+                        <form id="subscribeForm">
                             <div class="form-row p-1">
                                 <div class="form-group col-12">
-                                    <label class="sr-only" for="subEmail">Email address</label>
-                                    <input type="email" class="form-control form-control-sm" id="subEmail" placeholder="Enter email">
+                                    <label class="sr-only" for="subEmail">Email
+                                        address</label>
+                                    <input type="email"
+                                        class="form-control form-control-sm"
+                                        id="subEmail" placeholder="Enter email">
                                 </div>
                             </div>
                             <div class="form-row">
-                                <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
-                                <button type="submit" class="btn btn-danger btn-sm ml-1">Sign up</button>
+                                <button type="button"
+                                    class="btn btn-secondary btn-sm ml-auto"
+                                    data-dismiss="modal">Cancel</button>
+                                <button type="submit"
+                                    class="btn btn-danger btn-sm ml-1">Subscribe</button>
                             </div>
                         </form>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- END DISCOUNT MODAL -->
+        <!-- sub form end -->
 
-    <!-- START LOGIN MODAL -->
-    <div id="loginModal" class="modal fade" role="dialog" tabindex="-1">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h3 class="modal-title">Login</h3>
-                    <button type="button" class="close" data-dismiss="modal"><i class="fa fa-times"></i></button>
+        <!--begin footer  -->
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4 col-sm-2 offset-1">
+                        <h5>Links</h5>
+                        <ul class="list-unstyled">
+                            <li></li><a href="#">Home</a></li>
+                            <li><a href="#">Menu</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-sm-5 text-center">
+                        <h5>Social</h5>
+                        <a class="btn btn-social-icon btn-instagram"
+                            href="http://instagram.com/"><i
+                                class="fa fa-instagram"></i></a>
+                        <a class="btn btn-social-icon btn-facebook"
+                            href="http://facebook.com/"><i
+                                class="fa fa-facebook"></i></a>
+                        <a class="btn btn-social-icon btn-twitter"
+                            href="http://twitter.com/"><i
+                                class="fa fa-twitter"></i></a>
+                        <a class="btn btn-social-icon btn-google"
+                            href="http://youtube.com/"><i
+                                class="fa fa-youtube"></i></a>
+                    </div>
+                    <div class="col-sm-4 text-center">
+                        <a role="button" class="btn btn-link"
+                            href="tel:+15555555555"><i class="fa fa-phone"></i>
+                            1-555-555-5555</a><br />
+                        <a role="button" class="btn btn-link"
+                            href="mailto:info@battle.cake"><i
+                                class="fa fa-envelope-o"></i>
+                            info@battle.cake</a>
+                    </div>
                 </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <form>
-                            <div class="form-row">
-                                <div class="form-group col-12">
-                                    <label class="sr-only" for="loginEmail">Email address</label>
-                                    <input type="email" class="form-control form-control-sm" id="loginEmail" placeholder="Enter email">
+            </div>
+        </footer>
+        <!--end footer  -->
+
+        <!-- START DISCOUNT MODAL -->
+        <div id="subscribeModal" class="modal fade" role="dialog" tabindex="-1">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title">Subscribe to Our Newsletter</h3>
+                        <button type="button" class="close"
+                            data-dismiss="modal"><i
+                                class="fa fa-times"></i></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <form>
+                                <div class="form-row p-3">
+                                    <img src="img/cake_logo.png"
+                                        class="img-fluid p-3" />
+                                    <h2>Use the promo code and save 15%!</h2>
+
+                                    <p class="d-block">
+                                        Candy canes powder cupcake cake sesame
+                                        snaps I love I love apple pie pudding.
+                                        Chupa chups ice cream jujubes. Brownie
+                                        cookie jelly beans toffee topping.
+                                    </p>
                                 </div>
-                                <div class="form-group col-12">
-                                    <label class="sr-only" for="loginPassword">Password</label>
-                                    <input type="password" class="form-control form-control-sm" id="loginPassword" placeholder="Password">
-                                </div>
-                                <div class="col">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox">
-                                        <label class="form-check-label"> Remember me</label>
+                                <div class="form-row p-1">
+                                    <div class="form-group col-12">
+                                        <label class="sr-only"
+                                            for="subEmail">Email address</label>
+                                        <input type="email"
+                                            class="form-control form-control-sm"
+                                            id="subEmail"
+                                            placeholder="Enter email">
                                     </div>
                                 </div>
-                            </div>
-                            <div class="form-row">
-                                <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
-                                <button type="submit" class="btn btn-danger btn-sm ml-1">Sign in</button>
-                            </div>
-                        </form>
+                                <div class="form-row">
+                                    <button type="button"
+                                        class="btn btn-secondary btn-sm ml-auto"
+                                        data-dismiss="modal">Cancel</button>
+                                    <button type="submit"
+                                        class="btn btn-danger btn-sm ml-1">Sign
+                                        up</button>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    </div>
-    <!-- END LOGIN MODAL -->
+        <!-- END DISCOUNT MODAL -->
 
-    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
-    <!-- build:js js/main.js -->
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
-    <!-- endbuild -->
-</body>
+        <!-- START LOGIN MODAL -->
+        <div id="loginModal" class="modal fade" role="dialog" tabindex="-1">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title">Login</h3>
+                        <button type="button" class="close"
+                            data-dismiss="modal"><i
+                                class="fa fa-times"></i></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <form>
+                                <div class="form-row">
+                                    <div class="form-group col-12">
+                                        <label class="sr-only"
+                                            for="loginEmail">Email
+                                            address</label>
+                                        <input type="email"
+                                            class="form-control form-control-sm"
+                                            id="loginEmail"
+                                            placeholder="Enter email">
+                                    </div>
+                                    <div class="form-group col-12">
+                                        <label class="sr-only"
+                                            for="loginPassword">Password</label>
+                                        <input type="password"
+                                            class="form-control form-control-sm"
+                                            id="loginPassword"
+                                            placeholder="Password">
+                                    </div>
+                                    <div class="col">
+                                        <div class="form-check">
+                                            <input class="form-check-input"
+                                                type="checkbox">
+                                            <label class="form-check-label">
+                                                Remember me</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <button type="button"
+                                        class="btn btn-secondary btn-sm ml-auto"
+                                        data-dismiss="modal">Cancel</button>
+                                    <button type="submit"
+                                        class="btn btn-danger btn-sm ml-1">Sign
+                                        in</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- END LOGIN MODAL -->
+
+        <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+        <!-- build:js js/main.js -->
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="js/scripts.js"></script>
+        <!-- endbuild -->
+    </body>
 
 </html>

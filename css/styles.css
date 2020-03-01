@@ -46,23 +46,12 @@ header h2 {
   border-top: none;
   padding: 10px; }
 
-.carousel-caption {
-  background-color: rgba(0, 0, 0, 0.5); }
-
-.carousel {
-  border: solid indianred; }
-
 a:link,
 a:visited,
 a:hover,
 a:active {
   text-decoration: none;
   color: darkred; }
-
-#carouselButton {
-  position: absolute;
-  right: 0;
-  bottom: 0; }
 
 #loginModal .modal-header {
   background-color: firebrick;
@@ -76,3 +65,35 @@ a:active {
 
 .card-header {
   background-color: indianred; }
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%; }
+
+@media (min-width: 800px) {
+  .aboutBlurb {
+    column-count: 2;
+    column-gap: 40px;
+    column-rule-style: solid;
+    column-rule-width: 1px;
+    column-rule-color: darkslategray; } }
+
+@media (min-width: 1200px) {
+  .aboutBlurb {
+    column-count: 3;
+    column-gap: 30px;
+    column-rule-style: solid;
+    column-rule-width: 1px;
+    column-rule-color: darkslategray; } }
+
+.maxHeight {
+  max-height: 600px;
+  margin: auto;
+  display: block; }
+
+.imgWrap {
+  float: none;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 0px 15px 0px;
+  display: block; }
